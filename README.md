@@ -6,7 +6,7 @@
       Welcome to channel Thuan Sniper
     </title>
 </head>
-<body backround="cf.jpg" link="#000" alink="#017bf5" vlink="#000">
+<body backround="https://taoanhonline.com/wp-content/uploads/2019/07/hinh-nen-dot-kich-ban-sung-41-1.jpg" link="#000" alink="#017bf5" vlink="#000">
 <br />
 <h3 align="center">
 <font face="Lato" size="6">CF</font>
@@ -21,7 +21,7 @@
 <br /><br /><br /><br /><br />
 <h1 align="center">
     <font face="Lato" color="#017bf5" size="6">
-    WELCOME TO CHANNEL THUAN SNIPER
+    WELCOME TO CHANNEL THUẬN SNIPER
     </font>
 </h1>
 <h3 align="center">
