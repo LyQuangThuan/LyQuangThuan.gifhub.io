@@ -1,9 +1,6 @@
 <html lang ="en">
 <head>
     <meta charset="utf-8">
-    <title>
-      Welcome to channel Thuan Sniper
-    </title>
 </head>
 <body backround="https://sa.tinhte.vn/2018/01/4212138_dot-kich-vtc-game_1.jpg"
 <br />
