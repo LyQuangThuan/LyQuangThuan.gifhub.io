@@ -6,9 +6,10 @@
       Welcome to channel Thuan Sniper
     </title>
 </head>
-<body backround="https://taoanhonline.com/wp-content/uploads/2019/07/hinh-nen-dot-kich-ban-sung-41-1.jpg" link="#000" alink="#017bf5" vlink="#000">
+<body backround="https://sa.tinhte.vn/2018/01/4212138_dot-kich-vtc-game_1.jpg" link="#000" alink="#017bf5" vlink="#000">
 <br />
 <h3 align="center">
+    <img src="https://sa.tinhte.vn/2018/01/4212138_dot-kich-vtc-game_1.jpg" width="300" height="100"/>
 <font face="Lato" size="6">CF</font>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <font face="cinzel" size="4">
