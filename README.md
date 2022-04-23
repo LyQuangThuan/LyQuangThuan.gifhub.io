@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang ="en">
 <head>
     <meta charset="utf-8">
@@ -9,8 +8,7 @@
 <body backround="https://sa.tinhte.vn/2018/01/4212138_dot-kich-vtc-game_1.jpg"
 <br />
 <h3 align="center">
-    <img src="https://tse4.mm.bing.net/th?id=OIP.uO4J0bYpJEpw5esd2h4V5AHaFL&pid=Api&P=0&w=255&h=178" width="300" height="100"/>
-<font face="Lato" size="6">CF</font>
+    <img src="https://tse4.mm.bing.net/th?id=OIP.uO4J0bYpJEpw5esd2h4V5AHaFL&pid=Api&P=0&w=255&h=178" width="150" height="100"/>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 <font face="cinzel" size="4">
 <a href="#">TRANG CHỦ</a>&nbsp;&nbsp;
