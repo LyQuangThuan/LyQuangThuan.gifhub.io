@@ -1,38 +1,46 @@
 <html>
         </head>
+        <title></title>
         <style>
-        section{background-color: teal;height:500px;color:white;}
-        body{
-            background-image: url('https://freelancethietke.vn/UploadFile/PrjDesc/17242/20200211_081858_logo-giay(17).jpg');
-            background-attachment: fixed;
-            background-size: 100% 100%;
-        }    
+        header{background-color:990000;height:50px;}
+        section{background-color:3399FF;height:300px;color:white;}
+        footer{background-color: green;height:110px;}
+        
+       
             </style>
-<body>
+            </head>
+    <body>
 	<header>
+    
+   
                 <nav>
                     <a href="index.html">Trang chủ</a>&nbsp;&nbsp;&nbsp;&nbsp;
                 
-                    <a href="dangnhap.html">Đăng nhập</a>&nbsp;&nbsp;&nbsp;
-                    <a href="dangxuat.html">Đăng xuất</a>&nbsp;&nbsp;
+                    <a href="https://www.facebook.com/BestEkkoLQT/">FaceBook</a>&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.youtube.com/channel/UCMj8MtWmXLbuDCak9oqB-iQ/featured">Youtube</a>&nbsp;&nbsp;                 
                 </nav>
             </header>
-            <section> 
-                
-                <h1>Hồ sơ</h1>
+            <section>
+                <h1>Đăng nhập</h1>
                 <form>
-                    <input type="text" placeholder="Nhập tên người chơi">
-                    <button>Tìm</button>
+                
+                
+                    <input type="text" placeholder="SĐT hoặc email">&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type="text" placeholder="Mật khẩu">
+                    <button>Đăng nhập</button>
                 </form>
-                </sectision>
+                </section>
                 <footer>
-                    <h5>
+               
+               <h4>
                         Liên hệ với mình tại đây
-                    </h5>
+                    </h4>
                     <ul>
+                        <li>SĐT: 0123456789</li> 
                         <li>Email: lythuan63@gmai.com</li>
-                        <li>Facebook: Lý Quang Thuận</li>
+                        <li>Địa chỉ: 132 ABC - Cam Lâm - Khánh Hòa</li>
                     </ul>
+                
                 </footer>
 </body>
 </html>
