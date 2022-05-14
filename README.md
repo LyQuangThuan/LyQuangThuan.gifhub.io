@@ -3,14 +3,15 @@
         <h1>ShopaccLQT.com</h1>
         <style>
         header{height:50px;}
-        section{height:400px;color:white;}
-        footer{height:100px;color: white}
+        section{height:400px;color:blue}
+        footer{height:100px;color: red}
         body{
             background-image: url('http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_1.jpg');
             background-attachment: fixed;
             background-size: 100% 100%;
         }    
             </style>
+            
 <body>
 	<header>
                 <nav>
