@@ -3,8 +3,8 @@
         <h1>ShopaccLQT.com</h1>
         <style>
         header{height:50px;}
-        section{height:400px;color:blue}
-        footer{height:100px;color: red}
+        section{height:400px;color:blue;}
+        footer{height:100px;color: red;}
         body{
             background-image: url('http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_1.jpg');
             background-attachment: fixed;
