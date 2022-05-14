@@ -6,7 +6,7 @@
         section{height:400px;color:white;}
         footer{height:100px;color: white}
         body{
-            background-image: url('https://cdn1.dotesports.com/wp-content/uploads/2019/11/04131744/Ekkosmall.jpg');
+            background-image: url('http://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_1.jpg');
             background-attachment: fixed;
             background-size: 100% 100%;
         }    
