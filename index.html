@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 </head>
@@ -62,6 +63,9 @@
         ul.products li .product-top .product-thumb{
             display: block;
         }
+        ul.products li:hover .product-top .product-thumb img{
+        filter: opacity(80%)
+        }
         ul.products li .product-top .product-thumb img{
             display: block;
         }
@@ -77,6 +81,7 @@
             bottom: -36px;
             width: 100%;
             transition: 0.25s ease-in-out;
+            opacity: 0.85;
         }
         ul.products li:hover  a.buy-now{
             bottom: 0px;
