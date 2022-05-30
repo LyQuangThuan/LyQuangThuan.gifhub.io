@@ -1,0 +1,185 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+</head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Playerduo.com</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            font-family: 'Open Sans', sans-serif;
+            font-size: 14px;
+            color: #111;
+            line-height: 1.15;
+
+        }
+        #wrapper{
+            max-width: 1170px;
+            margin: 0 auto;
+        }
+        .headline{
+            text-align: center;
+            margin: 40px 0px;
+        }
+        h3{
+            font-size: 18px;
+            color: #111;
+            padding: 10px 20px;
+            text-transform: uppercase;
+            border: 1px solid #bebebe;
+            display: inline-block;
+            color: #555;
+            font-weight: 600;
+        }
+        ul.products{
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        ul.products li{
+            flex-basis: 50%;
+            padding-left: 15px;
+            padding-right: 15px;
+            box-sizing: border-box;
+            margin-bottom: 30px;
+        }
+        ul.products li img{
+            max-width: 100%;
+            height: auto;
+        }
+        ul.products li .product-top{
+            position: relative;
+            overflow: hidden;
+        }
+        ul.products li .product-top .product-thumb{
+            display: block;
+        }
+        ul.products li:hover .product-top .product-thumb img{
+        filter: opacity(80%)
+        }
+        ul.products li .product-top .product-thumb img{
+            display: block;
+        }
+        ul.products li .product-top a.buy-now{
+            text-transform: uppercase;
+            text-decoration: none;
+            text-align: center;
+            display: block;
+            background-color: #446084;
+            color: #fff;
+            padding: 10px 0px;
+            position: absolute;
+            bottom: -36px;
+            width: 100%;
+            transition: 0.25s ease-in-out;
+            opacity: 0.85;
+        }
+        ul.products li:hover  a.buy-now{
+            bottom: 0px;
+        }
+        ul.products li .product-info a{
+            padding: 10px 0px;
+        }
+        ul.products li .product-info a{
+            display: block;
+            text-decoration: none;
+        }
+        ul.products li .product-info a.product-cat{
+            font-size: 11px;
+            text-transform: uppercase;
+            color: #9e9e9e;
+            padding: 3px 0px;
+        }
+        ul.products li .product-info a.product-name{
+            color: #331862;
+            padding: 3px 0px;
+        }
+        ul.products li .product-info a.product-price{
+            color: #111;
+            padding: 2px 0px;
+            font-weight: 600;
+        }
+    </style>
+    <div id="wrapper">
+        <div class="headline">
+            <h3>PlayerDou</h3>
+        </div>
+        <ul class="products">
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fdad2-1.fna.fbcdn.net/v/t1.15752-9/282158623_748988539483945_1385864426734185877_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=ae9488&_nc_ohc=v9q1tvw9jnEAX_ONyLO&_nc_ht=scontent.fdad2-1.fna&oh=03_AVL1LABctSkjB6tZuy_bq28E-k59VxVx4rpyf8hxI8Sr-Q&oe=62958B21" alt="">
+                        </a>
+                        <a href="https://www.facebook.com/messages/t/100011128894927/" class="buy-now">Thuê</a>
+                    </div>
+                    <div class="product-info">
+                        <h4>Lý Quang Thuận (2k3)</h4>
+                        <a href="" class="product-cat"></a>
+                        <a href="" class="product-name">Liên Minh Đột Kích</a>
+                        <div class="product-price">50k/h</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fdad1-3.fna.fbcdn.net/v/t1.15752-9/280309987_516418290270426_5447463652488710127_n.png?stp=dst-png_s1080x2048&_nc_cat=104&ccb=1-7&_nc_sid=ae9488&_nc_ohc=ak_HzpW1mHEAX_wRM1I&_nc_ht=scontent.fdad1-3.fna&oh=03_AVLYeYzlfbYc6eHuHng38DogSzMGyF61xV2cAFD8eRMAhg&oe=62B8776B" alt="">
+                        </a>
+                        <a href="" class="buy-now">Thuê</a>
+                    </div>
+                    <div class="product-info">
+                        <h4>Đặng Gia Hân (2k4)</h4>
+                        <a href="" class="product-cat"></a>
+                        <a href="" class="product-name">PUBG Liên Quân</a>
+                        <div class="product-price">99k/h</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fdad1-3.fna.fbcdn.net/v/t1.15752-9/281885081_349992417238405_915873414881928817_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=ae9488&_nc_ohc=d4DJm34mk1YAX8yh9oc&_nc_ht=scontent.fdad1-3.fna&oh=03_AVKKhLnciPTsuZKTAOorU_YCsn6bu8RILnRbROmz5FlNFg&oe=62B9B568" alt="">
+                        </a>
+                        <a href="" class="buy-now">Thuê</a>
+                    </div>
+                    <div class="product-info">
+                        <h4>Trương Trúc Quỳnh (2k4)</h4>
+                        <a href="" class="product-cat"></a>
+                        <a href="" class="product-name">Liên Quân FreeFire</a>
+                        <div class="product-price">99k/h</div>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="product-item">
+                    <div class="product-top">
+                        <a href="" class="product-thumb">
+                            <img src="https://scontent.fdad1-1.fna.fbcdn.net/v/t1.15752-9/281117742_3129705657242009_3318419534896397732_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=ae9488&_nc_ohc=NU1Uy3lMRiQAX-Ixmg4&_nc_ht=scontent.fdad1-1.fna&oh=03_AVLcYrXSBE6uGPnUbufNs04kucPjS2UoGDfKNGE4JU00RA&oe=62B8B7BF" alt="">
+                        </a>
+                        <a href="" class="buy-now">Thuê</a>
+                    </div>
+                    <div class="product-info">
+                        <h4>Nguyễn Hữu Đăng (2k3)</h4>
+                        <a href="" class="product-cat"></a>
+                        <a href="" class="product-name">Liên Minh TFT</a>
+                        <div class="product-price">50k/h</div>
+                    </div>
+                </div>
+            </li>
+        
+</body>
+</html>
+
