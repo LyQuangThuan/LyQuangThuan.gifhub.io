@@ -38,7 +38,7 @@ header{
 }
 
 #logo{
-    color: #fff;
+    color: rgb(231, 21, 21);
     text-transform: uppercase;
     font-weight: bold;
     font-size: 1.5rem;
@@ -53,7 +53,7 @@ ul#main-menu a{
 ul#main-menu a{
     text-transform: uppercase;
     padding: 10px 20px;
-    color: #fff;
+    color: rgb(0, 0, 0);
     display: block;
     font-weight: bold;
 }
