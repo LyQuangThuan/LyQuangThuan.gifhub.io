@@ -1,1 +1,180 @@
 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            * {
+                box-sizing: border-box;
+                margin: 1;
+                padding: 1;
+            }
+            section {
+                display: flex;
+                justify-content: center;
+                height: 100%;
+            }
+            .container {
+                display: flex;
+                width: 60rem;
+                height: 30rem;
+                margin: auto;
+                background: url(https://hinhanhdephd.com/wp-content/uploads/2016/11/Background-Powerpoint-dep-nhat-15-min.jpg);
+            }
+            .input-data {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                padding: 2em;
+            }
+            input[type="submit"],
+            input[type="reset"] {
+                width: 10rem;
+                padding: .9em 0;
+            }
+            form > *,
+            content > * {
+                padding-bottom: 1em;
+            }
+            .flex {
+                display: flex;
+            }
+            .gender > * {
+                padding-left: 2em;
+            }
+            .hobby {
+                flex-direction: column;
+            }
+            .hobby > * {
+                padding-left: 2em;
+                padding-bottom: .5em;
+            }
+            .button {
+                padding: 0;
+            }
+            .output-data {
+                display: flex;
+                align-items: center;
+                width: 100%;
+                background: url(https://img2.thuthuatphanmem.vn/uploads/2018/12/30/background-ppt-dep_110343940.jpg);
+            }
+            .content > * {
+                padding-left: 2em;
+                padding-bottom: 1em;
+            }
+            @media (max-width: 60rem) {
+                .container {
+                    flex-direction: column;
+                }
+                .content {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    height: 15rem;
+                }
+            }
+        </style>
+    </head>
+    <body>
+        <section>
+            <div class="container">
+                <div class="input-data">
+                    <form id="user-detail">
+
+                        <div class="so a">
+                            <label for="name">Nhập a</label>
+                            <input type="text" id="number">
+                        </div>
+                        <div class="so b">
+                            <label for="name">Nhập b</label>
+                            <input type="text" id="numbers">
+                        </div>
+
+                        <label for="gender"></label>
+                        <div class="flex gender">
+<div class="cong">
+                                <input type="radio" name="gender" value="Cộng" id="user-gender">
+                                <label for="male">+</label>
+</div>
+                            <div class="tru">
+                                <input type="radio" name="gender" value="Trừ" id="user-gender">
+                                <label for="female">-<table>-</table></label>
+                            </div>
+                            <div class="nhan">
+                                <input type="radio" name="gender" value="Nhân" id="user-gender">
+                                <label for="male">*</label>
+                            </div>
+                            <div class="chia">
+                                <input type="radio" name="gender" value="Chia" id="user-gender">
+                                <label for="male">/</label>
+                            </div>
+                        </div>
+
+                        
+                        <div class="button">
+                            <input type="submit" value="Kết Quả" id="result">
+                            <input type="reset" value="Hủy">
+                        </div>
+                    </form>
+                </div>
+
+                <div class="output-data">
+                    <div class="content">
+                        
+                    </div>
+                </div>
+
+            </div>
+        </section>        
+    <body>
+    
+    Nhập số a: 
+    <input type="text" id="soa"><br><br>
+    Nhập số b: 
+    <input type="text" id="sob"><br><br>
+    <form id="chon">
+        Cộng: <input type="radio" value= "cong" name="choncong">&nbsp;&nbsp;&nbsp;
+        Trừ: <input type="radio" value="tru" name="choncong">&nbsp;&nbsp;&nbsp;
+        Nhân: <input type="radio" value="nhan" name="choncong">&nbsp;&nbsp;&nbsp;
+        Chia: <input type="radio" value="chia" name="choncong">&nbsp;&nbsp;&nbsp;
+    </form>
+    <br>
+    Kết quả:
+    <input type="text" id="ketqua"><br><br>
+    <input type="button" onclick="tinhtoan()" value="Kết Quả">
+    <input type="reset"  value="Hủy" id="reset">
+    <script>
+        function tinhtoan(){
+            var a= document.getElementById("soa").value;
+            var b= document.getElementById("sob").value;
+            var c;
+            var chon= document.getElementById("chon");
+            ;
+            // var cong= document.getElementById("cong");
+            // var tru= document.getElementById("tru");
+            // var nhan= document.getElementById("nhan");
+            // var chia= document.getElementById("chia");
+            if (chon=="cong"){
+                c=a+b;
+                document.getElementById("ketqua").value= c;
+            }else if(chon=="tru"){
+                c= a-b;
+                document.getElementById("ketqua").value= c;
+            }else if(chon=="nhan"){
+                c= a*b;
+                document.getElementById("ketqua").value= c;
+            }else{
+                c= a/b;
+                document.getElementById("ketqua").value= c;
+            }
+       
+
+
+        }
+        
+    </script>
+
+    
+</body>
+</html>
